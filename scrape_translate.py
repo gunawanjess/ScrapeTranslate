@@ -2,8 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 from googletrans import Translator
 
-# URL of the web page to be translated
-url = 'https://www.online-bijbel.nl/kortbegrip/overzicht/'
+# URL of the web page to be translated (can be replaced with desired URL)
+url = 'https://www.online-bijbel.nl/kortbegrip/volledig/'
 
 # Send a GET request to the URL and get the HTML content
 response = requests.get(url)
